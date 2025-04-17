@@ -1,0 +1,1 @@
+# Oracle AI Vector Search Fundamentals

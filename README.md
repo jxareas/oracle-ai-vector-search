@@ -11,11 +11,9 @@
 </h1>
     <!-- Add/Remove categories depending on your project -->
   <p align="center">
-    Solutions & Materials from Oracle AI Vector Search Certification
+    Materials & Solutions from the <i>Oracle AI Vector Search Certification</i>
     <br />
     <!-- IMPORTANT NOTE: If you want to append emojis you'll need to add the '-' sign before and after the header, as shown below:  -->
-    <a href="#-structure-">Structure</a>
-    ·
     <a href="#-modules-">Modules</a>
     ·
     <a href="#-requirements-">Requirements</a>
@@ -26,23 +24,6 @@
 
 This repository contains my scripts, answers & solutions to the Oracle MyLearn Training for the
 Oracle AI Vector Search Professional Certification.
-
-## 📁 Structure 📁
-
-This is the general top level directory structure of this repository:
-
-```txt
-├───.github
-│   ├─── ...
-├───01-oracle-ai-vector-search-fundamentals
-│   ├─── ...
-├───02-oracle-ai-vector-search-deep-dive
-│   ├─── ...
-├───03-autonomous-database-select-ai
-│   ├─── ...
-├───assets
-│   ├─── ...
-```
 
 ## ⏳ Deadlines ⏳
 
@@ -86,8 +67,14 @@ This is the general top level directory structure of this repository:
 <div align="center">
 <img src="./assets/oracle_ai_exact_search.png" alt="Oracle AI Exact Search" width="700" height="375">
 </div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🛠️ Requirements 🛠️
+
+TBD.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- This is a custom version of the Read-My-README template, by Jon Areas, 
