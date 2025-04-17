@@ -84,7 +84,7 @@ This is the general top level directory structure of this repository:
 * Practice Exam Questions & Solutions
 
 <div align="center">
-<img src="./assets/oracle_ai_exact_search.png" alt="Oracle AI Vector Search" width="800" height="300">
+<img src="./assets/oracle_ai_exact_search.png" alt="Oracle AI Exact Search" width="700" height="375">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
