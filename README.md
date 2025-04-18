@@ -3,7 +3,7 @@
 <div align="center">
   <a href="#">
    <!-- Replace this logo for a custom official logo -->
-    <img src="./assets/oracle_ai_vector_search_workflow.png" alt="Oracle AI Vector Search">
+    <img src="./assets/oracle_ai_vector_search_professional.png" alt="Oracle AI Vector Search" height="150">
   </a>
 
 <h1 align = "center">
@@ -65,7 +65,7 @@ Oracle AI Vector Search Professional Certification.
 * Practice Exam Questions & Solutions
 
 <div align="center">
-<img src="./assets/oracle_ai_exact_search.png" alt="Oracle AI Exact Search" width="700" height="375">
+<img src="./assets/oracle_ai_vector_search_workflow.png" alt="Oracle AI Vector Search">
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
