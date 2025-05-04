@@ -36,7 +36,11 @@ it at:
 - **CDB - Container Database Level**: Specifies the current size of the Vector Pool.
 
 ```oraclesqlplus
-ALTER SYSTEM SET VECTOR_MEMORY_SIZE=1 G SCOPE = BOTH;
+ALTER SYSTEM SET VECTOR_MEMORY_SIZE=1G SCOPE = BOTH;
+```
+
+```oraclesqlplus
+ALTER SYSTEM SET VECTOR_MEMORY_SIZE = 512M SCOPE=SPFILE
 ```
 
 - **PDB - Pluggable Database Level**: Specifies the maximum Vector Pool usage allowed by a PDB. Inherits from the CDB.
