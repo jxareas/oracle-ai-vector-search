@@ -1,6 +1,6 @@
 # Vector Search Workflow
 
-![Vector Search Workflow](./images/vector_search_workflow.png)
+![Vector Search Workflow](../images/vector_search_workflow.png)
 
 Oracle AI Vector Search is designed for Artificial Intelligence workloads. It allows us to query data based on
 semantics and image similarity rather than simple keywords. The preceding diagram shows us the possible steps

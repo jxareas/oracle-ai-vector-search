@@ -7,7 +7,7 @@ Euclidean, cosine, Jaccard, etc.).
 
 It can be either an exact search or an approximate search.
 
-![Nearest Neighbor Search](images/nearest_neighbor_search.png)
+![Nearest Neighbor Search](../images/nearest_neighbor_search.png)
 
 ## Exact Similarity Search
 

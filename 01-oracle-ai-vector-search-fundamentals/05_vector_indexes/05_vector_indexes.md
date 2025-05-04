@@ -25,7 +25,7 @@ Oracle AI Vector Search supports two types of indexes:
 
 ### The SGA Vector Pool
 
-![Oracle SGA Vector Pool](./images/vector_pool_sga.png)
+![Oracle SGA Vector Pool](../images/vector_pool_sga.png)
 
 For us to use vector indexes, it is a MUST to enable the Vector Pool in the Oracle SGA. The Vector Pool is a
 new component of the Oracle Database SGA which allows us to store vector indexes.

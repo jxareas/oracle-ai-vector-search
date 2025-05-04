@@ -108,7 +108,7 @@ SELECT TO_NUMBER(VECTOR_DISTANCE(
                  )) AS DISTANCE
 ```
 
-![Euclidean Similarity Illustration](./images/euclidean_similarity.png)
+![Euclidean Similarity Illustration](../images/euclidean_similarity.png)
 
 #### Cosine Similarity
 
@@ -134,7 +134,7 @@ SELECT TO_NUMBER(VECTOR('[3, 5]') <=> VECTOR('[10, 0]')) AS DISTANCE;
 Note: As mentioned before, the `VECTOR_DISTANCE` function defaults to `COSINE`, so it can be omitted from the
 function arguments.
 
-![Cosine Similarity Illustration](./images/cosine_similarity.png)
+![Cosine Similarity Illustration](../images/cosine_similarity.png)
 
 #### Dot Product Similarity
 
@@ -159,7 +159,7 @@ SELECT TO_NUMBER(INNER_PRODUCT(
 SELECT -1 * TO_NUMBER(VECTOR('[3, 5]') <#> VECTOR('[10, 0]')) AS DISTANCE;
 ```
 
-![Dot Product Similarity](./images/dot_product_similarity.png)
+![Dot Product Similarity](../images/dot_product_similarity.png)
 
 #### Manhattan Distance
 
@@ -172,7 +172,7 @@ Useful for describing uniform grids:
 Faster than the Euclidean metric. Useful for vectors describing objects in uniform grids such as city blocks, power
 grids or perhaps a chessboard.
 
-![Manhattan Distance](./images/manhattan_distance.png)
+![Manhattan Distance](../images/manhattan_distance.png)
 
 #### Hamming Similarity
 
@@ -184,7 +184,7 @@ For Binary Vectors, they describe:
 
 Hence, they compare the position of each bit in the sequence and are used for error detection over networks.
 
-![Hamming Distance](./images/hamming_distance.png)
+![Hamming Distance](../images/hamming_distance.png)
 
 #### Jaccard Similarity
 
@@ -192,7 +192,7 @@ Is used to determine the number of significant non-zero dimensions common betwee
 
 The Jaccard similarity is only applicable to `BINARY` vectors and only the non-zero bits of each vector are considered.
 
-![Jaccard Similarity](./images/jaccard_similarity.png)
+![Jaccard Similarity](../images/jaccard_similarity.png)
 
 ## Shorthand Operators
 
