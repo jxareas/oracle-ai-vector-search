@@ -23,7 +23,7 @@ CREATE TABLE docs
 
 Vector Embeddings are numerical representations of data (video, images, audio, etc), based on meaning and context.
 
-![Vector Embeddings](./images/embeddings.png)
+![Vector Embeddings](../images/embeddings.png)
 
 We can generate vector embeddings either outside or within the Oracle Database:
 
@@ -44,7 +44,7 @@ the query vector in a vector space._
 
 When doing a similarity search, the relative order of distances is what really matters rather than the actual distance.
 
-![Similarity Search](./images/similarity_search.png)
+![Similarity Search](../images/similarity_search.png)
 
 Similarity searches tend to get data from one or more clusters depending on the value of the query vector and the
 fetch size.
@@ -55,7 +55,7 @@ Vector Embedding models allow us to:
 
 - Quantify features or dimensions
 
-![Vector Embedding Model Representation](./images/vector_embedding_model.png)
+![Vector Embedding Model Representation](../images/vector_embedding_model.png)
 
 Most modern vector embeddings use a transformer model to generate embeddings, although convolutional neural networks
 can also be used.
@@ -76,7 +76,7 @@ pretrained open-source embedding models or calling REST APIs, there is also the 
 directly into the Oracle Database, as long as they are compatible with the **Open Neural Network Exchange - ONNX**
 standard.
 
-![ONNX - Open Neural Network Exchange](./images/onnx.png)
+![ONNX - Open Neural Network Exchange](../images/onnx.png)
 
 Oracle implements a ONNX runtime directly within the database, which allows us to generate vector embeddings directly
 within the database by using SQL.
