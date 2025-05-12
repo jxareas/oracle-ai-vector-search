@@ -16,7 +16,7 @@ It allows us to:
 
 ## Oracle AI Vector Search & OCI Generative AI Service (using python)
 
-Here are the typical steps for a full RAG pipeline using Oracle AI Vector Search with python and OCI Generative
+Here are the typical steps for a full RAG pipeline using Oracle AI Vector Search with Python and OCI Generative
 AI Service:
 
 1. Load the document.
