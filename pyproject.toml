@@ -3,4 +3,8 @@ name = "oracle-ai-vector-search"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "oci>=2.151.0",
+    "oracledb>=3.1.0",
+    "sentence-transformers>=4.1.0",
+]
