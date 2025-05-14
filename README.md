@@ -27,13 +27,13 @@ Oracle AI Vector Search Professional Certification.
 
 ## ⏳ Deadlines ⏳
 
-| ID | Module                               | Progress | Deadline   | 
-|----|--------------------------------------|----------|------------|
-| 1  | Oracle AI Vector Search Fundamentals | :x:      | 20/04/2025 |
-| 2  | Oracle AI Vector Search Deep Dive    | :x:      | 27/04/2025 |
-| 3  | Autonomous Database Select AI        | :x:      | 04/05/2025 |
-| 4  | Practice Exam                        | :x:      | 11/05/2025 |
-| 5  | Certification Exam                   | :x:      | 13/05/2025 |
+| ID | Module                               | Progress           | Deadline   | 
+|----|--------------------------------------|--------------------|------------|
+| 1  | Oracle AI Vector Search Fundamentals | :white_check_mark: | 20/04/2025 |
+| 2  | Oracle AI Vector Search Deep Dive    | :white_check_mark: | 27/04/2025 |
+| 3  | Autonomous Database Select AI        | :white_check_mark: | 04/05/2025 |
+| 4  | Practice Exam                        | :white_check_mark: | 11/05/2025 |
+| 5  | Certification Exam                   | :white_check_mark: | 14/05/2025 |
 
 ## 🚀 Modules 🚀
 
