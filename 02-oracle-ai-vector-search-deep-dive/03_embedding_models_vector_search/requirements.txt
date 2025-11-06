@@ -1,4 +1,0 @@
-numpy==1.26.4
-sentence-transformers==5.0.0
-torch>=2.0
-oracledb

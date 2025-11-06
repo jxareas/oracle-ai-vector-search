@@ -1,0 +1,16 @@
+# Core dependencies
+numpy==1.26.4
+torch>=2.0
+
+# NLP models
+sentence-transformers==5.0.0
+transformers>=4.36.0  # for tokenizer support if needed by sentence-transformers
+
+# Oracle database connector
+oracledb>=1.4.0
+
+# Oracle Cloud Infrastructure SDK (optional if you use OCI elsewhere)
+oci>=2.125.0
+
+# OpenAI API client
+openai>=1.51.0
