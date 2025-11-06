@@ -1,19 +1,21 @@
 import json
 import array
 import oracledb
+import os
 from sentence_transformers import SentenceTransformer
 from load_faqs_function import load_faqs
 
 # Database credentials
-un = "vector"
-pw = "vector"
-cs = "localhost/alpha"
+un = os.getenv("PYTHON_USERNAME")
+pw = os.getenv("PYTHON_PASSWORD")
+cs = os.getenv("PYTHON_CONNECTSTRING")
 
 # Establish connection
 connection = oracledb.connect(user=un, password=pw, dsn=cs)
 
+script_dir = os.path.dirname(os.path.abspath(__file__))
 # Data Loading
-data_faqs = load_faqs('/home/oracle/labs')
+data_faqs = load_faqs(os.path.join(script_dir))
 
 docs = [{'text': filename + ' | ' + section,
          'path': filename}
@@ -21,7 +23,7 @@ docs = [{'text': filename + ' | ' + section,
         for section in sections]
 
 # Table creation
-table_name = 'fags'
+table_name = 'faqs'
 create_table_sql = f"""
 CREATE TABLE IF NOT EXISTS {table_name} (
     id NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -62,13 +64,13 @@ with connection.cursor() as cursor:
 
     # Prepare insert data
     prepared_data = [
-        (row['id'], json.dumps(row['payload']), row['vector'])
+        (json.dumps(row['payload']), row['vector'])
         for row in data
     ]
 
     # Bulk insert
     cursor.executemany(
-        f"INSERT INTO {table_name} (id, payload, vector) VALUES (:1, :2, :3)",
+        f"INSERT INTO {table_name} (payload, vector) VALUES (:1, :2)",
         prepared_data
     )
 
