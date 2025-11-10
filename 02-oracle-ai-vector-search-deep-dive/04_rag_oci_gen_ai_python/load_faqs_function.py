@@ -14,6 +14,6 @@ def load_faqs(directory_path):
                 raw_faq = f.read()
 
             filename_without_ext = os.path.splitext(filename)[0]  # remove .txt extension
-            faqs[filename_without_ext] = [text.strip() for text in raw_faq.split('======')]
+            faqs[filename_without_ext] = [text.strip() for text in raw_faq.split('=====')]
 
     return faqs

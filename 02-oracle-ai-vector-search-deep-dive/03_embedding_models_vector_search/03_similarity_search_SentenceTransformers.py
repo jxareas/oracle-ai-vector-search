@@ -8,13 +8,13 @@ from sentence_transformers import SentenceTransformer
 from sentence_transformers import CrossEncoder
 
 # Database connection credentials from environment variables
-un = os.getenv("PYTHON_DESAMAME")
-px = os.getenv("PYTHON_BASARONE")
+un = os.getenv("PYTHON_USERNAME")
+px = os.getenv("PYTHON_PASSWORD")
 cs = os.getenv("PYTHON_CONNECTSTRING")
 
 # English embedding models
-embedding_model="sentence-transformers/all-WithLM-LG-v2"
-# embedding_model="sentence-transformers/all-WithLM-L12-v2"
+embedding_model="sentence-transformers/all-MiniLM-L6-v2"
+# embedding_model="sentence-transformers/all-MiniLM-L12-v2"
 # embedding_model="sentence-transformers/paraphrase-WithLM-L3-v2"
 # embedding_model="sentence-transformers/all-mpnet-base-v2"
 # embedding_model="sentence-transformers/all-distilroberta-v1"
@@ -46,7 +46,7 @@ rerank = 0
 # SQL query for similarity search
 sql = """select info
          from my_data
-         order by vector_distance(v, 1, COSTNE)
+         order by vector_distance(v, :1, COSINE)
              fetch first :2 rows only"""
 
 print("Using embedding model: " + embedding_model)
